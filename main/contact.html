@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.js"></script>
+    <script src="jquery.js"></script>
+    <link href="contact.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="one">
+    <div class="navbar">
+        <div>
+            <img class="logo" src="logo.png">
+        </div>
+        <div  class="title-name">
+            <div>Contact</div>
+        </div>
+        <div class="address">
+            <div class="wrap">
+            <div class="state">New Jersey</div>
+            <div class="contact">
+                TIMES real estate </br>
+            1 Corporate pl</br>
+            Piscataway NJ</br>
+            08854
+                </div>
+                </div>
+            <div class="wrap">
+            <div class="state1">New York</div>
+            <div class="contact1">
+                TIMES real estate </br>
+                23rd street</br>
+                Lower Manhattan</br>
+                New York
+            </div>
+                </div>
+            <div class="wrap">
+            <div class="state2">San Fransico</div>
+            <div class="contact2">
+                TIMES real estate</br>
+                Sufflok street</br>
+                Stamford</br>
+                Conneticut</br>
+
+            </div>
+                </div>
+        </div>
+    <div id="inner">
+        <form method="get" action="">
+            <fieldset>
+                <legend>Please provide your name, email address (won't be published) and a comment</legend>
+                <p class="cmform">
+                    <label for="cname">Name</label>
+                    <input id="cname" name="name" minlength="2" type="text" required>
+                </p>
+                <p class="cmform">
+                    <label for="cemail">E-Mail (required)</label>
+                    <input id="cemail" type="email" name="email" required>
+                </p>
+                <p class="cmform">
+                    <label for="curl">URL (optional)</label>
+                    <input id="curl" type="url" name="url">
+                </p>
+                <p class="cmcomment">
+                    <label for="ccomment">Your comment (required)</label>
+                    <textarea id="ccomment" name="comment" required></textarea>
+                </p></br>
+                <p>
+                    <input class="submit" type="submit" value="Submit" onclick="submitted()">
+                </p>
+            </fieldset>
+        </form>
+
+    </div>
+    </div>
+    </div>
+
+</body>
+</html>
