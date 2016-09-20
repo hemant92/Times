@@ -28,3 +28,8 @@
   background-position: position;
   position:relative;
 }
+
+.thumbnail{
+  height: 350px;
+  width: 300px;
+}

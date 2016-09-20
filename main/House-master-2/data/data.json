@@ -8,7 +8,7 @@
     "details": {
       "bedrooms": 2,
       "bathrooms": 1.5,
-      "area": 921 
+      "area": 921
     },
     "image":"crib-1"
   },
@@ -21,7 +21,7 @@
     "details": {
       "bedrooms": 4,
       "bathrooms": 3,
-      "area": 2145 
+      "area": 2145
     },
     "image":"crib-2"
   },
@@ -34,7 +34,7 @@
     "details": {
       "bedrooms": 3,
       "bathrooms": 2.5,
-      "area": 1500 
+      "area": 1500
     },
     "image":"crib-3"
   },
@@ -47,7 +47,7 @@
     "details": {
       "bedrooms": 6,
       "bathrooms": 4.5,
-      "area": 3230 
+      "area": 3230
     },
     "image":"crib-4"
   },
@@ -60,7 +60,7 @@
     "details": {
       "bedrooms": 2,
       "bathrooms": 1.5,
-      "area": 1023 
+      "area": 1023
     },
     "image":"crib-5"
   },
@@ -73,7 +73,7 @@
     "details": {
       "bedrooms": 4,
       "bathrooms": 2.5,
-      "area": 1788 
+      "area": 1788
     },
     "image":"crib-6"
   },
@@ -90,19 +90,6 @@
       "area": 1788
     },
     "image":"nyc1"
-  },
-  {
-    "id": 8,
-    "type": "House",
-    "price": 1000000,
-    "address": "West central park",
-    "description": "best view of hollywood!",
-    "details": {
-      "bedrooms": 3,
-      "bathrooms": 2.5,
-      "area": 5000
-    },
-    "image": "bv2"
   },
   {
     "id": 9,
@@ -142,20 +129,5 @@
       "area": 6000
     },
     "image":"bv5"
-  },{
-  "id": 12 ,
-  "type": "House",
-  "price": 944900,
-  "address": "princeton road",
-  "description": "University town!",
-  "details": {
-    "bedrooms": 4,
-    "bathrooms": 2.5,
-    "area": 6000
-  },
-  "image":"bv6"
-}
-
-
-
+  }
 ]

@@ -1,0 +1,20 @@
+.navbar {
+    background-size: cover;
+    background-position: position;
+    height: 100vh;
+    position: relative;
+}
+
+.navbutton{
+    float: left;
+    text-decoration: none;
+    color: #2ecc71;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+
+.navbutton:hover{
+    border-bottom: 2px solid #2ecc71;
+}

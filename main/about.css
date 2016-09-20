@@ -3,7 +3,7 @@ html{
     text-rendering: optimizeLegibility;
 }
 #one{
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../main.jpg");
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("main.jpg");
     background-size: cover;
     background-position: position ;
     height: 100vh;
@@ -47,4 +47,20 @@ p{
     text-align:justify;
     text-justify: inter-word;
     word-spacing: 2px;
+}
+
+.navbar{
+
+    width:100vw;
+    height: 70px;
+}
+
+.logo{
+    float: left;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+
+
 }

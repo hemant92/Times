@@ -12,5 +12,8 @@
     <orderEntry type="library" name="d3.v3" level="application" />
     <orderEntry type="library" name="d3.v4.0.0-alpha.4" level="application" />
     <orderEntry type="library" name="circosJS" level="application" />
+    <orderEntry type="library" name="jquery.validate" level="application" />
+    <orderEntry type="library" name="angular-route" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>

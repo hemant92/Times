@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body ng-app="myApp">
+
+<div class="navbar">
+
+    <div  class="title-name">
+        <div>Times</div>
+        <div class="subtitle"></div>
+    </div>
+    <div class="button">
+        <a class="navbutton" href='#Red'>About us</a>
+        <a class="navbutton" href="#green">Market trends</a>
+    </div>
+</div>
+<div ng-view></div>
+
+<script>
+    var app = angular.module("myApp", ["ngRoute"]);
+    app.config(function($routeProvider) {
+        $routeProvider
+                .when("/", {
+                    templateUrl : "main.html"
+                })
+                .when("/Red", {
+                    templateUrl : "about us.html"
+                })
+                .when("/green", {
+                    templateUrl : "mortgage.html"
+                });
+    });
+</script>
+</body>
+</html>
